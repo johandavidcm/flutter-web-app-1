@@ -50,6 +50,11 @@ class _TableDesktopMenu extends StatelessWidget {
               onPressed: () => locator<NavigationService>().navigateTo('/otrolado'),
               color: Colors.black,
             ),
+            CustomFlatButton(
+              text: 'Stateful 100',
+              onPressed: () => locator<NavigationService>().navigateTo('/stateful/100'),
+              color: Colors.black,
+            ),
           ],
         ),
       );
