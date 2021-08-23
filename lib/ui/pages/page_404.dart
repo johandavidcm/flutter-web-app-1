@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../shared/cusotom_app_menu.dart';
+import '../shared/custom_app_menu.dart';
 import '../shared/custom_flat_button.dart';
 
 class Page404 extends StatelessWidget {

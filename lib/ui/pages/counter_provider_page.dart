@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:primeraapp/providers/counter_provider.dart';
 import 'package:provider/provider.dart';
 
-import '../shared/cusotom_app_menu.dart';
+import '../shared/custom_app_menu.dart';
 import '../shared/custom_flat_button.dart';
 
 class CounterProviderPage extends StatelessWidget {

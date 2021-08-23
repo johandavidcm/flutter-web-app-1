@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../shared/cusotom_app_menu.dart';
 import '../shared/custom_flat_button.dart';
 
 class View404 extends StatelessWidget {
@@ -11,7 +10,6 @@ class View404 extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            CustomAppMenu(),
             Text(
               '404',
               style: TextStyle(

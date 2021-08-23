@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../shared/cusotom_app_menu.dart';
 import '../shared/custom_flat_button.dart';
 
 class CounterView extends StatefulWidget {
@@ -18,8 +17,6 @@ class _CounterViewState extends State<CounterView> {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        CustomAppMenu(),
-        Spacer(),
         Text(
           'Contador Stateful',
           style: TextStyle(
@@ -60,7 +57,6 @@ class _CounterViewState extends State<CounterView> {
             ),
           ],
         ),
-        Spacer(),
       ],
     );
   }

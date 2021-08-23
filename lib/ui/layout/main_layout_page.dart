@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:primeraapp/ui/shared/cusotom_app_menu.dart';
+import 'package:primeraapp/ui/shared/custom_app_menu.dart';
 
 class MainLayoutPage extends StatelessWidget {
   final Widget child;

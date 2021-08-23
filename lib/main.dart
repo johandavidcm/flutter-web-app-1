@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:primeraapp/services/navigation_service.dart';
-import 'package:primeraapp/ui/layout/main_layout_page.dart';
 
+import 'locator.dart';
 import 'router/route_generator.dart';
+import 'services/navigation_service.dart';
+import 'ui/layout/main_layout_page.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  setupLocator();
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   @override
@@ -12,7 +16,7 @@ class MyApp extends StatelessWidget {
         title: 'Routes app',
         initialRoute: '/stateful',
         onGenerateRoute: RouteGenerator.generateRoute,
-        navigatorKey: navigationService.navigatorKey,
+        navigatorKey: locator<NavigationService>().navigatorKey,
         builder: (_, child) {
           return MainLayoutPage(
             child: child ?? CircularProgressIndicator(),
